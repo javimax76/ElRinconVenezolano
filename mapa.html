@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+
+	    <meta charset="iso-8559-1"/>	   
+	    <meta name="description" content= "El Rincon Venezolano"/>		
+	    <meta name="keywords" content= comida, servicios, restaurantes"/>	   								 									
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+      
+	    <title>El Rincon Venezolano</title>
+	    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	    <link rel="stylesheet" href="materialize/css/materialize.css"/>
+                
+	</head>
+	<body class="green accent-2">
+	<header>
+		<!-- Dropdown Structure -->
+    <ul id="dropdown1" class="dropdown-content">
+      <li><a href="pasapalos.html">Pasapalos</a></li>
+      <li><a href="sopas.html">Sopas</a></li>
+      <li><a href="ensaladas.html">Ensaladas</a></li>
+      <li class="divider"></li>
+      <li><a href="platosprincipales.html">Platos Principales</a></li>
+      <li><a href="arepas.html">Arepas</a></li>
+      <li><a href="postres.html">Postres</a></li>
+    </ul>
+    <nav class="blue darken-3">
+      <div class="nav-wrapper">
+        <a href="index.html" class="brand-logo">El Rincon Venezolano</a>
+        <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="acerca.html">Acerca</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <!-- Dropdown Trigger -->
+              <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Productos<i class="material-icons right">arrow_drop_down</i></a></li>
+          <li><a href="mapa.html">Sucursales</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+	</header>
+	<ul id="slide-out" class="sidenav grey">
+      <li><a href="recetas.html">Zona de Recetas</a></li>
+      <li><a href="Comentarios.html">Comentarios de Nuestros Clientes</a></li>
+    </ul>
+	<a href="#" data-target="slide-out" class="sidenav-trigger"></a>
+	<main class="green accent-2">
+    <div class="container">
+      <div class="col s6">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1966.180406321407!2d-63.2119827880813!3d9.73547250181914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c3338aefce41cf9%3A0xd4d67496ce0622b6!2sCalle+10%2C+Matur%C3%ADn+6201%2C+Monagas!5e0!3m2!1ses!2sve!4v1536175108879" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+      <div class="col s6">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1618.0040989435106!2d-63.21244144338717!3d9.735168494919787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c3338aefce41cf9%3A0xd4d67496ce0622b6!2sCalle+10%2C+Matur%C3%ADn+6201%2C+Monagas!5e1!3m2!1ses!2sve!4v1536176229894" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+    </div>
+	</main>
+	<footer class="blue darken-3">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Contactanos</h5>
+                <p class="grey-text text-lighten-4">Urbanizacion Antonio Jose de Sucre Calle 10 casa 13- Maturin- Estado Monagas- Venezuela. Telefonos: 0291-651.93.26 / 0414-858.13.00</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Paginas Amigas</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="http://www.lds.org">La Iglesia de Jesucristo SUD</a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/">Facebook</a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://twitter.com">Twitter</a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://academy-nova.techlatam.la/">Nova Academy</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            2018 Derechos Reservados
+            </div>
+          </div>
+        </footer>
+	    <script src="jquery-3.3.1.min.js"></script>
+		<script src="materialize/js/materialize.js"></script>
+    <script src="live.js"></script>
+    <script src="mapa.js"></script>
+    
+		<script>
+			$(document).ready(function(){
+				$('.sidenav').sidenav();
+        $('.slider').slider();
+       });
+      
+		</script>
+    <script>
+      $(".dropdown-trigger").dropdown();
+    </script>
+	</body>	
+</html>
